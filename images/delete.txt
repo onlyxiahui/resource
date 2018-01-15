@@ -1,0 +1,6 @@
+.dll
+.db
+.dat
+.data
+.rdb
+.txd
