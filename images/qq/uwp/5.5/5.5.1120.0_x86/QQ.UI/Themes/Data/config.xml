@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThemeData>
+  <ThemeCategory Name="经典主题" EnglishName="Classic">
+    <Theme Key="ColdNight" IsDefault="true"/>
+    <Theme Key="Green"/>
+    <Theme Key="Brown"/>
+    <Theme Key="BlueGreen"/>
+    <Theme Key="DarkBlue"/>
+  </ThemeCategory>
+</ThemeData>

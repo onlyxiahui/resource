@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>$_Title_$</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<style type="text/css">
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td{
+	margin: 0;
+	padding: 0;
+}
+html, body{height: 100%;}
+body {
+	background-color: #eef1f4;
+	color: #222;
+	font-size:14px;
+	font-family: 'microsoft yahei';
+	position: relative;
+}
+#activity-detail {
+	max-width:720px;
+	min-height:100%;
+	margin: 0 auto;
+	padding: 0 40px;
+	background-color:#fff;
+}
+.page-bizinfo{padding:30px 0;}
+pre {
+	word-break: break-all;
+	word-wrap: break-word;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img {
+	border: 0;
+}
+address, caption, cite, code, dfn, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+caption, th {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+sup {
+	vertical-align: text-top;
+}
+sub {
+	vertical-align: text-bottom;
+}
+input, textarea, select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+input, textarea, select {
+	font-size: 100%;
+}
+legend {
+	color: #000;
+}
+#activity-name {
+	color: #000;
+	font-size: 24px;
+	font-weight: normal;
+	word-break: normal;
+	word-wrap: break-word;
+	margin-bottom:15px;
+}
+.activity-info{ height:1.1em; line-height:1.1em;}
+.activity-meta {
+	color: #8c8c8c;
+	margin-right:10px;
+	float:left;
+}
+.activity-info .text-ellipsis {
+	float:left;
+}
+.activity-info .text-ellipsis a{
+	display:inline-block;
+	max-width: 290px;
+	height: 1.2em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#post-user {
+	text-decoration: none;
+	outline: 0;
+	color: #4c7fce;
+	cursor: text;
+}
+a.activity-meta {
+	text-decoration: none;
+	outline: 0;
+	color: #607FA6;
+}
+#activity-detail .page-content {
+	word-wrap: break-word;
+	word-break: break-all;
+}
+#activity-detail .page-content .media {
+	margin: 0 0 18px;
+}
+#activity-detail .page-content .media img {
+	width: 100%;
+}
+#activity-detail .page-content .text {
+	color: #666;
+	line-height:1.8em;
+}
+#activity-detail .page-content .text p {
+	*zoom:1;
+	word-wrap: break-word;
+}
+#activity-detail .page-content .text p:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+}
+.page-toolbar {
+	padding-bottom:40px;
+	overflow: hidden;
+	*zoom:1;
+}
+.page-toolbar a {
+	color: #607FA6;
+	text-decoration: none;
+	text-shadow: 0 1px #FFF;
+	-webkit-text-shadow: 0 1px #ffffff;
+	-moz-text-shadow: 0 1px #ffffff;
+}
+.text{
+	padding-bottom:35px;
+}
+.text p {
+	margin:0 0 20px;
+}
+.text img {
+	max-width: 100%!important;
+	height: auto!important;
+}
+.text li {
+	word-wrap: break-word;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
+	body{font-size:12px; font-family: Helvetica, STHeiti STXihei, Microsoft JhengHei, Microsoft YaHei, Tohoma, Arial;}
+	#activity-name{font-size:20px;}
+	#activity-detail{padding:0 20px;}
+	.page-bizinfo{padding-top:20px;}
+}
+</style>
+</head>
+
+<body>
+<div id="activity-detail">
+    <div class="page-bizinfo">
+        <div class="header">
+            <h1 id="activity-name">$_Title_$</h1>
+            <p class="activity-info"> 
+                <span id="post-date" class="activity-meta">$_DateTime_$</span>
+                <span class="text-ellipsis"><a href="javascript:viewProfile();" id="post-user" class="activity-meta">$_Author_$</a></span>
+                 
+            </p>
+        </div>
+    </div>
+    
+    <div id="page-content" class="page-content">
+        <div class="media" id="media" style="$_MediaStyle_$;"><img class="coverpic" src="$_PicUrl_$"/></div>
+        
+        <div class="text">
+        	$_Text_$
+        </div>
+        
+        	<p class="page-toolbar" style="$_OriginalStyle_$;"><a href="$_OriginalUrl_$" class="original_link">阅读原文</a></p>
+    </div>
+    
+</div>
+</body>
+</html>
